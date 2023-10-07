@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif ;
+  }  
+
+.body-text{
+    margin-left: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    background-color: rgb(129, 129, 253);
+    padding: 1%;
+    position:relative;
+    
+}
+
+h2{
+    text-align: left;
+    font-size: 48px;
+    padding: 1%;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 28px;
+    padding: 1%;
+}
+
+h4{
+    text-align: center;
+    font-size: 28px;
+    padding: 1%;
+}
+.card{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+transition: 0.3s;
+
+}
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(129, 129, 253);
+    padding-top: 40px;
+}
+.sidenav div{
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+footer{
+    text-align: center;
+    background-color: rgb(129, 129, 253);
+    padding: 1%;
+}
