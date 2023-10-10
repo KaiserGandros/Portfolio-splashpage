@@ -20,10 +20,12 @@ body {
 
 .p1{
     border: 5px solid;
-    padding: 0.125rem 0.5rem;
-    width: 1617px;
     height: 500px;
     font-size: 30px;
+    flex-wrap: wrap;
+}
+.para{
+    font-size: 1.7vw;
 }
 .p2{
     border:5px solid;
@@ -100,23 +102,47 @@ section{
 }
 
 .sidenav {
-    height: 150%;
+    height: 100%;
     width: 150px;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: rgb(129, 129, 253);
-    padding-top: 40px;
+    padding-top: 60px;
+    overflow-x: hidden;
 }
-.sidenav div{
-    padding: 8px;
+.sidenav a{
+    padding: 20px;
+    text-decoration: none;
     font-size: 24px;
     text-align: center;
     display: block;
+    border:2px solid;
+    border-color: black;
 }
 footer{
     text-align: center;
     background-color: rgb(129, 129, 253);
     padding: 1%;
 }
+ @media screen and (max-width: 800px) {
+    main,
+    .p1,
+    .p2,
+    .para
+    .photo
+    .sidenav {
+        flex-direction: column;
+    }
+    .img1 {
+        display: none;
+    }
+    p{
+        flex-direction: column;
+    }
+    .p1{
+        height: 250px;
+    }
+
+ }
