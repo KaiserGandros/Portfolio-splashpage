@@ -51,10 +51,8 @@ SOFTWARE.
 
 ## Features
 
-Changes to the font sizes of regular text and headers.
-Changed the height of the main company photo to showcase more.
-Spaced out the Head bar options to be easier to click and see.
-Fixed the heading attributes to be in sequential order.
-Made a title for the tab to match the company name.
-Added accessible alt attributes for when the image doesnt load
+Made header and about me section
+Made showcases with responsive links to github pages
+made side nav bar
+made things responsive 
 
